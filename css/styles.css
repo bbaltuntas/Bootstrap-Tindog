@@ -1,0 +1,186 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Heading Style */
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* Navbar Style */
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  font-size: 1.2rem;
+  padding-right: 18px;
+}
+
+.nav-link {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+}
+
+/* Button Style */
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Style */
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.container-fluid {
+  padding: 3% 10% 7%;
+}
+
+.title-row {
+  padding: 3% 10% 7%;
+  /* margin-bottom: 5%; */
+}
+
+.image-container {
+  position: relative;
+}
+
+.title-image {
+  position: absolute;
+  right: 30%;
+  width: 60%;
+  transform: rotate(25deg);
+}
+
+/* Features Style */
+/*
+
+.feature-row {
+  width: 80%;
+  margin: 0 auto 10%;
+}*/
+#features {
+  position: relative;
+  z-index: 1;
+  padding: 7% 15%;
+  background-color: #fff;
+}
+
+.feature-con {
+  padding: 0 5% 2%;
+  margin: 10% 0 0 0;
+  text-align: center;
+}
+
+.feature-title {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+.feature-content {
+  color: #8f8f8f;
+}
+
+.features-icon {
+  color: #ef8172;
+}
+
+.features-icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials Style */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.image-testimonial {
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-image {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Price Style */
+#pricing {
+  margin: 5% 0;
+}
+
+.price-card {
+  position: relative;
+  height: 100%;
+}
+
+.btn-price {
+  color: #ff4c68;
+  border-color: #ff4c68;
+  position: relative;
+  bottom: 5%;
+}
+
+.btn-price:hover {
+  background-color: #ff4c68;
+  border-color: #ff4c68;
+}
+
+/* CTA Style */
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 20%;
+}
+
+/* Footer Style */
+#footer {
+  text-align: center;
+  padding: 7% 20%;
+}
+
+.icon-footer {
+  margin: 0 2% 2% 0;
+}
+
+@media (max-width:992px) {
+  .title-image {
+    position: static;
+    width: 40%;
+    transform: rotate(0deg);
+  }
+
+  .title-row {
+    text-align: center;
+  }
+}
